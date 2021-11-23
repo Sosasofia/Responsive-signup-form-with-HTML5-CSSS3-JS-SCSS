@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <meta name="description" content="Intro with signup using HMTL,CSS,JS">
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Learn to code by watching others</h1>
+            <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+                understanding how developers think is invaluable.</p>
+        </header>
+
+        <section>
+            <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+        </section>
+
+        <form action="#">
+
+            <input type="text" placeholder="First Name" class="input error-input" id="icon">
+            <p id="name-error" class="validation-error">First Name cannot be empty</p>
+
+            <input type="text" placeholder="Last Name " class="input error-input">
+            <p id="lastName-error" class="validation-error">Last Name cannot be empty</p>
+
+            <input type="text" placeholder="Email Address" class="input error-input">
+            <p id="email-error" class="validation-error">Looks like this is not an email</p>
+
+            <input type="password" placeholder="Password" class="input error-input">
+            <p id="password-error" class="validation-error">Password cannot be empty</p>
+
+            <input id="form-submit" class="submit-btn" name="submit" type="submit" value="Claim your free trial">
+
+            <small>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></small>
+        </form>
+    </main>
+    
+    
+    
+</body>
+</html>
