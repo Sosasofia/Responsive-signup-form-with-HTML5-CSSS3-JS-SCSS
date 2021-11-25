@@ -147,6 +147,10 @@ form {
   background-repeat: no-repeat;
   background-position: 95% center;
   border: 1px solid #ff7a7a;
+
+  &::placeholder {
+    color: transparent;
+  }
 }
 
 @media screen and (min-width: 800px) {

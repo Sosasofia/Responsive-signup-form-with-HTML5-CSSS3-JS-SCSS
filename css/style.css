@@ -134,6 +134,9 @@ form small a:link {
   background-position: 95% center;
   border: 1px solid #ff7a7a;
 }
+.error-input::placeholder {
+  color: transparent;
+}
 
 @media screen and (min-width: 800px) {
   body {
