@@ -66,8 +66,8 @@ form input {
   padding-left: 20px;
   font-weight: 700;
 }
-form input:active {
-  border: 1px solid #666;
+form input:focus {
+  border: 1px solid #777575;
 }
 form input::placeholder {
   font-weight: bolder;
@@ -171,7 +171,7 @@ form small a:link {
 
   form {
     grid-area: form;
-    padding: 45px;
+    padding: 40px;
   }
   form input {
     height: 60px;

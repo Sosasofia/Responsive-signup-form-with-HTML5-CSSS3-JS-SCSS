@@ -70,8 +70,8 @@ form {
     padding-left: 20px;
     font-weight: 700;
 
-    &:active {
-      border: 1px solid #666;
+    &:focus {
+      border: 1px solid rgb(119, 117, 117);
     }
 
     &::placeholder {
@@ -188,7 +188,7 @@ form {
 
   form {
     grid-area: form;
-    padding: 45px;
+    padding: 40px;
 
     input {
       height: 60px;
