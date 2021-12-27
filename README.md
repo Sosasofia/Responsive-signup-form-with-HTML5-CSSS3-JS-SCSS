@@ -42,7 +42,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Sosasofia/Responsive-signup-form-with-HTML5-CSSS3-JS-SCSS)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Solution](https://sosasofia.github.io/Responsive-signup-form-with-HTML5-CSSS3-JS-SCSS/m)
 
 
 
